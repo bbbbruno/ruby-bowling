@@ -14,3 +14,8 @@ $ ./bin/bowling.rb 6,3,9,0,0,3,8,2,7,3,X,9,1,8,0,X,6,4,5
 `0-10`: 何本倒したか    
 `X`: ストライク   
 
+## テスト方法
+```
+$ ruby test/bowling_test.rb                              
+ALL TEST PASSED
+```
