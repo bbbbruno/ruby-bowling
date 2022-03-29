@@ -1,6 +1,11 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require_relative '../lib/bowling/game'
+require_relative '../lib/game'
 
-puts Bowling::Game.new(ARGV[0]).calc_score
+def main
+  game = Game.new(ARGV[0])
+  puts game.score
+end
+
+main
